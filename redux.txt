@@ -1,0 +1,12 @@
+creating downloadable files :
+using BLOB and URL API
+BLOB:blob takes the first parameter as array (with multiple strings)and seond as type 
+syntax:
+const blob1=new Blob([],{type:'text/plain'})
+a1.href=URL.createObjectURL(blob1)
+
+first a blob has to be created and from that a URL API can be created
+
+
+
+Thunk :It is a function that delays an action until later and returns another function eventually 

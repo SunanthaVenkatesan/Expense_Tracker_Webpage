@@ -1,0 +1,124 @@
+.starting {
+  margin: 3rem auto;
+  text-align: center;
+  font-family: "metal-mania";
+  cursor: pointer;
+}
+
+.starting h1 {
+  font-size: 2rem;
+  font-family: "metal-mania";
+  color: rgb(63, 60, 60);
+}
+.starting p {
+  font-size: 1.2rem;
+}
+.starting button {
+  color: rgb(63, 60, 60);
+  background-color: rgb(235, 214, 217);
+  padding: 0.55rem;
+  border-radius: 25px;
+  border-color: #777;
+  font-family: "metal-mania";
+  font-weight: bold;
+}
+.starting button:hover {
+  color: rgb(10, 10, 10);
+  background-color: rgb(147, 127, 130);
+}
+
+.expense {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+
+  box-shadow: 0 1px 4px black;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.expense h1 {
+  text-align: center;
+  color: black;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: #777;
+
+  margin-bottom: 0.5rem;
+}
+
+.control input,
+select {
+  font: inherit;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: rgb(85, 83, 83);
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.actions button:hover {
+  background-color: rgb(57, 53, 53);
+  border-color: rgb(57, 53, 53);
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+
+  text-decoration: underline;
+}
+.list {
+  list-style: none;
+  text-align: center;
+  font-family: "metal-mania";
+  
+}
+.expenselist {
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+
+  box-shadow: 0 1px 4px black;
+ 
+  text-align: center;
+  color: black;
+}
+.expenselist h3{
+  margin-right: 3rem;
+}
